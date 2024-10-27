@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34005729674",
+    "project_id": "sandhyaworkout",
+    "storage_bucket": "sandhyaworkout.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34005729674:android:17481ff3f7381e7dc54873",
+        "android_client_info": {
+          "package_name": "com.canadore.sandhyaworkout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHGyZFhAAseNWi7YeIEDHcTuwUqUfRO-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

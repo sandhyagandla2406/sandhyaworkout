@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/loginstory"> <!-- Use your storyboard background here -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- TextView for displaying current workout name -->
+    <TextView
+        android:id="@+id/currentWorkoutNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Workout Name"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/workoutNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="New Workout Name"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+    <!-- TextView for displaying current workout duration -->
+    <TextView
+        android:id="@+id/currentWorkoutDurationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Duration"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/workoutDurationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="New Duration (minutes)"
+        android:inputType="number"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+    <!-- TextView for displaying current workout calories -->
+    <TextView
+        android:id="@+id/currentWorkoutCaloriesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Calories"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/workoutCaloriesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="New Calories (cals)"
+        android:inputType="number"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Workout"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Workout"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"/>
+</LinearLayout>
